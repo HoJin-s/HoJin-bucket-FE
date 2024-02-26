@@ -3,6 +3,11 @@
 ## Project setup
 ```
 npm install
+
+npm install -g @vue/cli
+npm install vue-router@4
+npm install vuex --save
+npm install axios
 ```
 
 ### Compiles and hot-reloads for development

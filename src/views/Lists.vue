@@ -7,8 +7,11 @@
             <div class="category">
                 <button>카테고리</button>
             </div>
-            <div class="bucket-list" v-for="i in buckets.buckets.length" :key="i">
-                {{ buckets["buckets"][i - 1]["title"] }}
+            <div class="bucket-list">
+                <div v-for="i in buckets.buckets.length" :key="i">
+                    <input type="checkbox" v-model="checked">
+                    {{ buckets["buckets"][i - 1]["title"] }}
+                </div>
             </div>
         </div>
         <div class="list-left">
