@@ -1,5 +1,6 @@
-import MainPages from '@/components/Mainpage.vue';
-import AllBucket from '@/components/AllBucket.vue';
+import MainPages from '@/views/Main.vue';
+import AllBucket from '@/views/Lists.vue';
+import LoginPage from '@/components/user/Login.vue';
 
 const routes = [
     {
@@ -9,6 +10,10 @@ const routes = [
     {
         path:'/lists',
         component: AllBucket
+    },
+    {
+        path: '/login',
+        component: LoginPage
     }
 ]
 
