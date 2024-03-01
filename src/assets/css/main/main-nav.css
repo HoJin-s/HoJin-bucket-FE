@@ -1,0 +1,25 @@
+#logo {
+    width: 3%;
+    padding: 0%;
+    margin: 0% 0% 0% 5%;
+}
+
+#bucket {
+    width: 40%
+}
+
+#bucket a {
+    margin-left: 1%;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(74, 74, 74);
+}
+
+#menu {
+    width : 50%;
+    margin : 0% 0% 0% 30%;
+}
+
+#menu a {
+    margin-right: 15%;
+}
