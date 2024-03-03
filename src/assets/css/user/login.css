@@ -1,3 +1,13 @@
+/* 뒷배경 어둡게 */
+.back-color {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5)
+}
+
 /* 로그인 페이지 전체 */
 .login-wrap {
     background: #DDEFFF;
@@ -5,7 +15,7 @@
     height: 600px;
     margin: 50px auto;
     text-align: center;
-    border-radius: 20px;   
+    border-radius: 20px;  
 }
 
 /* 닫기 버튼 */
@@ -16,11 +26,12 @@
     font-size: 20px;
     font-weight: 800;
     margin: 10px 10px 0 0;
+    text-decoration: none;
     float: right;
     clear: both;
 }
 
-/* 로그인 위쪽 패딩*/
+/* 로그인 글자 위쪽 패딩*/
 .login {
     padding: 100px 0 0 0;
 }
@@ -33,11 +44,20 @@
 
 /* 로그인 입력란 */
 .login-user {
-    margin: 50px 0 50px 0;
-
+    margin: 50px auto 50px auto;
+    width: 40%;
 }
 .login-user p {
     color: rgb(96, 96, 96);
+    text-align: start;
+    margin: 30px 0 8px 0;
+}
+.login-user input {
+    width: 100%;
+    height: 38px;
+    background: #F3F3F3;
+    border: none;
+    border-radius: 10px;
 }
 
 /* 로그인 버튼 */
@@ -55,10 +75,9 @@
     margin: 30px;
     background: #DDEFFF;
     border: none;
-    /* border-radius: 20px; */
     padding: 10px;
     color: #878787;
     font-weight: 800;
-    text-decoration-line: underline;
+    text-decoration: underline;
 }
 
