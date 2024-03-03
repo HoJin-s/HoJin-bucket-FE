@@ -12,8 +12,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav" id="menu" >
-                    <a class="nav-link" href="#">로그인</a>
-                    <a class="nav-link" href="#">회원가입</a>
+                    <button @click="$emit('openLogin')" class="nav-link">로그인</button>
+                    <button @click="$emit('openSignup')" class="nav-link">회원가입</button>
                 </div>
             </div>
         </div>
@@ -25,8 +25,5 @@ import "@/assets/css/main/main-nav.css"
 
 export default {
     name: 'NavBar',
-    components: {
-
-    }
   }
 </script>
