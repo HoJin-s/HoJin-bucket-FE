@@ -23,7 +23,13 @@ function createPost() {
 
 
 // users
+function postSignup() {
+  return axios.post(`${config.baseUrl}user/create`);
+}
 
+function postLogin() {
+  return axios.post(`${config.baseUrl}user/login`);
+}
 
 
 // function
@@ -32,5 +38,7 @@ function createPost() {
 export {
   getBuckets,
   getBucket,
-  createPost
+  createPost,
+  postSignup,
+  postLogin
 }

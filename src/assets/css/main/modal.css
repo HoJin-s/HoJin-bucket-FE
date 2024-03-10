@@ -1,0 +1,41 @@
+.modal-btn {
+  z-index: 999;
+  position: fixed;
+  top: 50px;
+  right: 165px;
+  background: #ddefff;
+  width: 120px;
+  height: 250px;
+  border-radius: 20px;
+  float: right;
+  margin-right: 100px;
+}
+
+button {
+  background: none;
+  border: none;
+  font-weight: 550;
+}
+
+.close-modal {
+  text-align: end;
+  padding: 5px 5px 0 0;
+}
+
+.move-page {
+  text-align: center;
+  margin: 0 10px 0 10px;
+}
+
+.move-page button {
+  margin-top: 10px;
+}
+
+.logout {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logout button {
+  color: rgb(228, 43, 43);
+}

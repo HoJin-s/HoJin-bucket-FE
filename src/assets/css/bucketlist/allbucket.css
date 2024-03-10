@@ -1,50 +1,118 @@
+/* 전체 */
 .wrap {
-    width : 65%;
-    margin : auto;
+  width: 65%;
+  margin: auto;
+  min-width: 1000px;
 }
 
-.title {
-    width : 65%;
-    margin : auto;
-}
-
+/* 버킷리스트 모아보기 */
 .title h1 {
-    font-weight: bold;
-    background: linear-gradient(to right top, #0013e0, #d701ba);
-    color: transparent;
-    -webkit-background-clip: text;
+  font-weight: bold;
+  background: linear-gradient(to right top, #0013e0, #d701ba);
+  color: transparent;
+  -webkit-background-clip: text;
 }
 
+/* 오른쪽 (카테고리 + 목록) */
 .list-right {
-    width : 60%;
-    height : 30%;
-    float: left;
+  width: 60%;
+  float: left;
 }
 
+/* 왼쪽 (캘린더 + 다가오는 일정) */
 .list-left {
-    width : 38%;
-    float: right;
+  width: 38%;
+  float: right;
 }
 
+/* 카테고리 */
 .category {
-    background-color: rgb(236, 236, 236);
-    height: 80px; 
+  background-color: rgb(236, 236, 236);
+  height: 135px;
+  border-radius: 10px;
+  min-width: 592.48px;
 }
 
+.category-top category-bottom {
+  margin-left: 3%;
+}
+
+.category button {
+  background: none;
+  width: 80px;
+  border: none;
+  margin: 1% 3% 0 3%;
+}
+
+.category img {
+  width: 100%;
+}
+
+.category hr {
+  margin: 0;
+}
+
+/* 버킷리스트 목록 */
 .bucket-list {
-    background-color: rgb(236, 236, 236);
-    margin-top: 3%;
-    height: 460px; 
+  background-color: rgb(236, 236, 236);
+  margin: 3% 0 3% 0;
+  height: 420px;
+  padding: 20px;
 }
 
-.calender {
-    background-color: rgb(236, 236, 236);
-    height: 300px; 
+.bucket-list input[type="checkbox"] {
+  display: none;
 }
 
+.bucket-list input[id^="check"] + label {
+  cursor: pointer;
+}
+
+.bucket-list input[id^="check"] + label:before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 4px;
+  vertical-align: middle;
+  background-color: rgb(207, 207, 207);
+}
+
+.bucket-list input[id^="check"]:checked + label:before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 4px;
+  vertical-align: middle;
+  background-color: rgb(207, 207, 207);
+  background-image: url("@/assets/images/checked.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/* 캘린더 */
+.vc-container {
+  background-color: rgb(236, 236, 236) !important;
+  border: none !important;
+  width: 100% !important;
+  height: 280px !important;
+  padding: 10px;
+}
+
+/* 다가오는 일정 */
 .comming {
-    background-color: rgb(236, 236, 236);
-    margin-top: 3%;
-    height: 250px; 
+  background-color: rgb(236, 236, 236);
+  margin-top: 3%;
+  height: 250px;
+  text-align: center;
+  padding: 20px;
+  list-style: none;
+}
 
+.comming h3 {
+  font-weight: 700;
+  color: rgb(163, 65, 163);
 }

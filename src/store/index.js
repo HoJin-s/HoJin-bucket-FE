@@ -1,9 +1,12 @@
-import { createStore } from 'vuex';
-import buckets from './lists';
+import { createStore } from "vuex";
+import lists from "./bucket/lists";
+import nav from "./user/nav";
+
 const store = createStore({
   modules: {
-    buckets
-  }
+    lists,
+    nav,
+  },
 });
 
 export default store;

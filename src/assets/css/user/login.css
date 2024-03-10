@@ -1,83 +1,83 @@
 /* 뒷배경 어둡게 */
 .back-color {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    background: rgba(0, 0, 0, 0.5)
+  z-index: 999;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 /* 로그인 페이지 전체 */
 .login-wrap {
-    background: #DDEFFF;
-    width: 40%;
-    height: 600px;
-    margin: 50px auto;
-    text-align: center;
-    border-radius: 20px;  
+  background: #ddefff;
+  width: 40%;
+  height: 600px;
+  margin: 50px auto;
+  text-align: center;
+  border-radius: 20px;
 }
 
 /* 닫기 버튼 */
 .close-button {
-    background: #DDEFFF;
-    border: none;
-    color: #878787;
-    font-size: 20px;
-    font-weight: 800;
-    margin: 10px 10px 0 0;
-    text-decoration: none;
-    float: right;
-    clear: both;
+  background: #ddefff;
+  border: none;
+  color: #878787;
+  font-size: 20px;
+  font-weight: 800;
+  margin: 10px 10px 0 0;
+  text-decoration: none;
+  float: right;
+  clear: both;
 }
 
 /* 로그인 글자 위쪽 패딩*/
 .login {
-    padding: 100px 0 0 0;
+  padding: 100px 0 0 0;
 }
 
 /* 로그인 글자 */
-.login-info h1{
-    font-weight: bold;
-    color: rgb(96, 96, 96);
+.login-info h1 {
+  font-weight: bold;
+  color: rgb(96, 96, 96);
 }
 
 /* 로그인 입력란 */
 .login-user {
-    margin: 50px auto 50px auto;
-    width: 40%;
+  margin: 50px auto 50px auto;
+  width: 40%;
 }
 .login-user p {
-    color: rgb(96, 96, 96);
-    text-align: start;
-    margin: 30px 0 8px 0;
+  color: rgb(96, 96, 96);
+  text-align: start;
+  margin: 30px 0 8px 0;
 }
 .login-user input {
-    width: 100%;
-    height: 38px;
-    background: #F3F3F3;
-    border: none;
-    border-radius: 10px;
+  width: 100%;
+  height: 38px;
+  background: #f3f3f3;
+  border: none;
+  border-radius: 10px;
 }
 
 /* 로그인 버튼 */
 .login-button {
-    background: #FFD0D0;
-    border: none;
-    border-radius: 20px;
-    padding: 10px;
-    color: rgb(96, 96, 96);
-    font-weight: 800;
+  background: #ffd0d0;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  color: rgb(96, 96, 96);
+  font-weight: 800;
 }
 
 /* 회원가입 페이지로 버튼 */
 .go-signup {
-    margin: 30px;
-    background: #DDEFFF;
-    border: none;
-    padding: 10px;
-    color: #878787;
-    font-weight: 800;
-    text-decoration: underline;
+  margin: 30px;
+  background: #ddefff;
+  border: none;
+  padding: 10px;
+  color: #878787;
+  font-weight: 800;
+  text-decoration: underline;
 }
-

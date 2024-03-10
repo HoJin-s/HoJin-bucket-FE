@@ -1,25 +1,35 @@
-#nav-wrap{
-    width: 75%;
-    margin: 0% auto 1% auto;
+#nav-wrap {
+  background: rgb(255, 254, 239);
+  width: 75%;
+  margin: 0% auto 1% auto;
 }
 
 #bucket {
-    width: 15%;
-    margin-left: 1%;
+  width: 15%;
+  margin-left: 1%;
 }
 
 #bucket a {
-    margin-left: 1%;
-    font-size: 20px;
-    font-weight: bold;
-    color: rgb(74, 74, 74);
+  margin-left: 1%;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(74, 74, 74);
 }
 
 #menu {
-    width : 50%;
-    margin : 0% 0% 0% 50%;
+  width: 50%;
+  margin: 0% 0% 0% 50%;
 }
 
 #menu a {
-    margin-right: 15%;
+  margin-right: 15%;
+  width: 150px;
+}
+
+#is-login {
+  margin-right: 70px;
+}
+
+.nav-link img {
+  width: 30px;
 }
